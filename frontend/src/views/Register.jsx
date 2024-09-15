@@ -2,15 +2,15 @@ import '../style/Register.css'
 
 export default function Register() {
     return(
-        <div id='registerDiv'>
-            <form id="registerForm">
-                <h1 id='formTitle'>Formulário para ir ao céu</h1>
-                <input id="nome" type="text" placeholder="Nome"/>
-                <input id="idade" type="number" placeholder="Idade"/>
-                <input id="cpf" type="number" placeholder="CPF"/>
-                <button id="confirmButton" type="submit">Enviar</button>
+        <div id='register-div'>
+            <h1>Javex Feed</h1>
+            <form id='register-form'>
+                <h2>Registre-se</h2>
+                <input type="email" className="register-inputs" placeholder='Email' required/>
+                <input type="text" className="register-inputs" placeholder='Username' required/>
+                <input type="password" className="register-inputs" placeholder='Senha' required/>
+                <button type='submit' id="register-button">Registrar</button>
             </form>
-            <footer id="footer">Prefere ir ao INFERNO? <a id='linkProNether' href='https://www.youtube.com/watch?v=b53QJYP-lqY' target='_blank'>Clique aqui</a></footer>
         </div>
     )
 }
