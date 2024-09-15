@@ -1,74 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-#registerForm {
+body {
+    background-color: #161a1d;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#register-div {
+    background-color: white;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+#register-form {
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 25px;
-
+    align-items: center;
 }
 
-input {
+.register-inputs {
     border-radius: 20px;
-    border: 1px solid #0c3c60;
-    padding-left: 60px;
-    box-shadow: 2px 2px 8px #0c3c60;
-
-}
-
-#nome,
-#idade,
-#cpf {
-    background-image: url('../assets/imgs/personIcon.png');
-    background-repeat: no-repeat;
-    background-position: 10px center;
-    padding-left: 35px;
+    border: 1px solid black;
+    padding-left: 10px;
+    box-shadow: 1px 1px 2px black;
     width: 220px;
-    height: 50px;
-    background-size: 20px;
-
+    height: 30px;
 }
 
-#idade {
-    background-image: url('../assets/imgs/idadeIcon.png');
-}
-
-#cpf {
-    background-image: url('../assets/imgs/cpfIcon.png');
-}
-
-#confirmButton:hover {
-    background-color: #2390a6;
-
-}
-
-#confirmButton {
-    width: 220px;
-    height: 50px;
+#register-button {
+    width: 180px;
+    height: 40px;
     border-radius: 20px;
-    border: 2px solid #0c3c60;
+    border: 2px solid #ba181b;
     font-size: 15px;
     font-family: "Poppins", sans-serif;
-    background-color: #0c3c60;
+    background-color: #ba181b;
     color: white;
-    transition-property: background-color;
-    transition-duration: 1s;
-}
-
-#formTitle {
-    font-family: "Merriweather", serif;
-    color: white;
-    text-shadow: 2px 2px 6px black;
-    font-size: 35px;
-
-}
-
-#footer {
-    font-family: "Merriweather", serif;
-    padding-top: 20px;
-    text-align: center;
-    font-size: 18px;
-    color: white;
-    text-shadow: 2px 2px 8px #0c3c60;
 }
