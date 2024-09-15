@@ -1,4 +1,7 @@
 const express = require('express');
+const app = express();
+
+app.use(express.json());
 
 function searchRoutes(app) {
     
@@ -13,8 +16,20 @@ function searchRoutes(app) {
 
     // fazendo teste para o postman
     app.get('/pensologoexisto', (req, res) => {
-        return res.status(200).json({ status: '200', message: 'pois então pense mais' });
+        return res.json({ 
+            status: '200', 
+            message: 'pois então pense mais' 
+        });
     });
 }
 
 module.exports = searchRoutes;
+
+/*
+OUTRO JEITO DE TRABALHAR COM JSON
+
+res.status(200).json({
+    status: '200',
+    message: 'pois então pense mais' 
+})
+*/
