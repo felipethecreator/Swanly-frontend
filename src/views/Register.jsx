@@ -24,10 +24,11 @@ export default function Register() {
     };
 
     return (
+        <>
+            <h1 className='pageTitle'>Javex Feed</h1>
         <div id='register-div'>
-            <h1>Javex Feed</h1>
             <form id='register-form' onSubmit={handleSubmit}>
-                <h2>Registre-se</h2>
+                <h2 className='register-text'>Registre-se</h2>
                 <input
                     type="email"
                     className="register-inputs"
@@ -55,5 +56,7 @@ export default function Register() {
                 <button type='submit' id="register-button">Registrar</button>
             </form>
         </div>
+            <p className='already-registered-text'>Já está registrado?</p>
+        </>
     );
 }
