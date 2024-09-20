@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import '../style/Register.css';
+import "./styles.css";
 
-export default function Register() {
+export default function RegisterForm() {
     const [email, setEmail] = useState('');
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');

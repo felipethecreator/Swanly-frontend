@@ -1,8 +1,8 @@
-import Register from './views/Register'; 
+import RegisterPage from "./views/register"
 
 export default function App() {
 
   return(
-     <Register/> 
+     <RegisterPage/> 
   )
 }
