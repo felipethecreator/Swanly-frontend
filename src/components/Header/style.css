@@ -3,7 +3,7 @@
 .header-main {
     width: 100%;
     height: 5.8rem;
-    position: fixed;
+    position: sticky;
     top: 0;
     background-color: rgba(74, 72, 112);
     display: flex;
