@@ -1,14 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 .header-main {
-    width: 100vw;
-    height: 10vh;
-    display: flex;
-    flex-direction: row;
+    width: 100%;
+    height: 5.8rem;
     position: fixed;
     top: 0;
-    background-color: rgb(201, 245, 245);
+    background-color: rgba(74, 72, 112);
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-topics {
+    width: 35%;
+    display: flex;
     align-items: center;
-    justify-content:space-between;
-    
+    justify-content: space-evenly;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.logo-title-div {
+    display: flex;
+    width: 15%;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    color: #fff;
+    gap: 15px;
+}
+
+#title-swanly {
+    font-weight: 300;
 }
 
 .swanly-logo {

@@ -7,7 +7,7 @@ export default function Header() {
             <header className="header-main">
                 <div className="logo-title-div">
                         <img className="swanly-logo" alt="Swanly logo" src={Logo} />
-                        <h1>Swanly</h1>
+                        <h1 id="title-swanly">Swanly</h1>
                 </div>
                 <nav className="header-topics">
                     <p className="header-topics">Home</p>
