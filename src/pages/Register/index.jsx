@@ -1,5 +1,5 @@
-import RegisterForm from '../../components/registerForm';
-import Header from '../../components/header'
+import RegisterForm from '../../components/RegisterForm'
+import Header from '../../components/Header'
 
 export default function RegisterPage() {
     return (

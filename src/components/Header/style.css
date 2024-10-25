@@ -1,0 +1,17 @@
+.header-main {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    background-color: rgb(201, 245, 245);
+    align-items: center;
+    justify-content:space-between;
+    
+}
+
+.swanly-logo {
+    width: 80px;
+    height: auto;
+}

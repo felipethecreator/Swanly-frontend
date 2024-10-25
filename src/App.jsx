@@ -1,4 +1,4 @@
-import RegisterPage from "./views/register"
+import RegisterPage from "./pages/Register"
 
 export default function App() {
 
