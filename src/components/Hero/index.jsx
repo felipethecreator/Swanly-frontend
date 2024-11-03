@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <div className="hero-container">
       <div className="hero-content">
-        <h2>Conecte-se, inspire e faça ondas no Swanly!</h2>
+        <h2 id='hero-heading'>Conecte-se, inspire e faça ondas no Swanly!</h2>
         <p>Onde ideias livres fluem como cisnes na água.</p>
         <button>Registrar</button>
         <p>Já tem uma conta? <a href="/login">Login</a></p>
