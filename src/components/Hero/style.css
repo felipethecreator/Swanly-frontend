@@ -16,6 +16,7 @@
   justify-content: center;
   flex-direction: column;
   text-align: center;
+  gap: 15px;
 }
 
 .hero-image {
@@ -25,9 +26,36 @@
 }
 
 #hero-heading {
-  line-height: 1.1;
+  line-height: 1.0;
   font-size: 100px;
   font-weight: 500;
+}
+
+.effect-phrase {
+  font-size: 28px;
+  opacity: 60%;
+}
+
+.register-button {
+  width: 20vw;
+  height: 5.5vh;
+  border-radius: 20px;
+  background-color: rgba(74, 72, 112);
+  border: none;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 500;
+  box-shadow: 0px 0px 28px 12px rgba(0,0,0,0.1);
+}
+
+.login-text {
+  font-size: 22px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.login-button {
+  color: #fff;
 }
 
   .logo-swanly {
