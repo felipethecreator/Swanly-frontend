@@ -1,7 +1,7 @@
 # **Swanly**
 Uma API RESTful inspirada no Twitter para gerenciar usuários e postagens, com autenticação e interações sociais.
 <p align="center">
-  <img src="./logo.png" alt="Logo do Projeto" width="200px">
+  <img src="./src/assets/images/logo.png" alt="Logo do Projeto" width="200px">
 </p>
 
 ---
